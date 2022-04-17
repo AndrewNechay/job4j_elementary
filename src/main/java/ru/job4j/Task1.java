@@ -15,7 +15,7 @@ public class Task1 {
         int bacteria = 10000000; // 10 в 7 степени = 10 миллионов бактерий
         System.out.println(bacteria);
         int spaceobjects = (149597870); // единици измерения в астрономии примерно равна среднему
-        // расстоянию земли от солнца - 149597870 км
+        // расстоянию земли от солнца - 149597870 кмю
         System.out.println(spaceobjects);
         char jobPermission = 'Y'; // разрешение на работу- да
         System.out.println(jobPermission);
