@@ -14,12 +14,12 @@ public class Task1 {
         System.out.println(brick);
         int bacteria = 10000000; // 10 в 7 степени = 10 миллионов бактерий
         System.out.println(bacteria);
-        int spaceobjects = (149597870); // единици измерения в астрономии примерно равна среднему
+        int spaceobjects = (149597870); // единицы измерения в астрономии примерно равна среднему
         // расстоянию земли от солнца - 149597870 км
         System.out.println(spaceobjects);
         char jobPermission = 'Y'; // разрешение на работу- да
         System.out.println(jobPermission);
-        short filesize = (1494); // размер этого файла - 1439 байт, "байт" не подойдёт уже
+        short filesize = (1514); // размер этого файла - 1439 байт, тип данных "байт" не подойдёт уже
         System.out.println(filesize);
 
     }
