@@ -3,23 +3,21 @@ package ru.job4j;
 public class Task1 {
     public static void main(String[] args) {
 
-        byte age = 27;     //тип байт потому как выше не имет смысла, будет тяжелее файл
+        byte age = 27;
         System.out.println(age);
-        char gender = 'M';   // тип данных "символ"
+        char gender = 'M';
         System.out.println(gender);
-        short height = (175); // т.к. тип "байт" доходит максимум до 127 байтов
+        float height = (175);
         System.out.println(height);
-        int brick = (40000); // т.к. на 100 к.м. дома надо около 40 тысяч кирпичей, а тип данных "шорт" располагает
-        // максимум на 32 тысячи
+        int brick = (40000);
         System.out.println(brick);
-        int bacteria = 10000000; // 10 в 7 степени = 10 миллионов бактерий
+        double bacteria = 10000000;
         System.out.println(bacteria);
-        int spaceobjects = (149597870); // единици измерения в астрономии примерно равна среднему
-        // расстоянию земли от солнца - 149597870 км
+        double spaceobjects = (149597870);
         System.out.println(spaceobjects);
-        char jobPermission = 'Y'; // разрешение на работу- да
+        boolean jobPermission = true;
         System.out.println(jobPermission);
-        short filesize = (1494); // размер этого файла - 1439 байт, "байт" не подойдёт уже
+        long filesize = (1494);
         System.out.println(filesize);
 
     }
