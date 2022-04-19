@@ -16,6 +16,22 @@ public class Calculator {
         System.out.println(sixDivTwo);
         System.out.println(fiveMinusTwo);
         System.out.println(fourTimeTwo);
+        six = 7;
+        four = 10;
+        System.out.println(six + four);
+        int age = 10;
+        int agePlusOne = age + 10;
+        age = agePlusOne;
+        System.out.println(agePlusOne);
+        int age1 = 10;
+        age1 = age1 + 10;
+        System.out.println(age1);
+
+        int size = 10;
+        size = size + 90;
+        size = size - 5;
+        System.out.println(size);
 
     }
+
 }
