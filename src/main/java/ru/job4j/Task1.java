@@ -11,7 +11,7 @@ public class Task1 {
         System.out.println(height);
         int brick = (40000);
         System.out.println(brick);
-        double bacteria = 10000000;
+        double bacteria = 10.000000;
         System.out.println(bacteria);
         double spaceobjects = (149597870);
         System.out.println(spaceobjects);
