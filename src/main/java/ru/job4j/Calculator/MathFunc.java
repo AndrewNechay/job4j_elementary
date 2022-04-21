@@ -14,10 +14,11 @@ public class MathFunc {
     public static void main(String[] args) {
         int result1 = MathFunc.func1(3);
         int result2 = MathFunc.func2(5);
-        //int result3 = MathFunc.func1(3) * 9;
+        int result3 = MathFunc.func1(3) * 9;
         int total = result1 + result2;
-        //int total1 = result1 + result3;
+        int total1 = result1 + result3;
         System.out.println(total);
-        //System.out.println(total1);
+        System.out.println(total1);
+
     }
 }
