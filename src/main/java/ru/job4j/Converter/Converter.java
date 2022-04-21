@@ -1,4 +1,4 @@
-package ru.job4j.ru.job4j.converter;
+package ru.job4j.Converter;
 
 public class Converter {
     public static float rubleToEuro(float value) {
