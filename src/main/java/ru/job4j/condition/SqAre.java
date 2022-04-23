@@ -14,5 +14,4 @@ public class SqAre {
         System.out.println(result2);
 
     }
-
 }
