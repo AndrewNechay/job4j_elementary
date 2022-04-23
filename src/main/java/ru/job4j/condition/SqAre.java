@@ -13,6 +13,7 @@ public class SqAre {
         System.out.println(" p = 4, k = 1, s = 1, real = " + result1);
         double result2 = SqAre.sqare(6, 2);
         System.out.println(result2);
+
     }
 
 }
