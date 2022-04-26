@@ -20,8 +20,8 @@ public class MathCalculator {
         System.out.println("Результат расчёта равен: " + sumAndmultiply(10, 20));
         System.out.println("Результат вычитания:" + apple(300, 200));
         System.out.println("Результат деления:" + pear(1000, 200));
-        System.out.println("Разность 2х чисел и деление 2х чисел " + appleAndpear(1000, 100));
-        System.out.println("fddf" + appleAndpearAndsumAndmultiply(10, 10, 10, 10));
+        System.out.println("Разность 2х чисел и деление 2х чисел: " + appleAndpear(1000, 100));
+        System.out.println("" + appleAndpearAndsumAndmultiply(10, 10));
 
     }
 }
