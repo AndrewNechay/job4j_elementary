@@ -18,8 +18,9 @@ public class ConverterTest {
     public void whenConvert200RblThen3dot333Dlr() {
 
     }
+
     @Test
-    public void whenConvert180RblThen3Dlr(){
+    public void whenConvert180RblThen3Dlr() {
         float in = 180;
         float expenced = 3;
         float out = Converter.rubleToDollar(in);
