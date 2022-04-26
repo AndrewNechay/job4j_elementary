@@ -12,10 +12,6 @@ public class ConverterTest {
         float out = Converter.rubleToEuro(in);
         float eps = 0.0001f;
         Assert.assertEquals(expenced, out, eps);
-    }
-
-    @Test
-    public void whenConvert200RblThen3dot333Dlr() {
 
     }
 
