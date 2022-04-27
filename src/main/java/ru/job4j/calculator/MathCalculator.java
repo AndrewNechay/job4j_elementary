@@ -4,12 +4,12 @@ import static ru.job4j.math.MathFunction.*;
 
 public class MathCalculator {
     public static double sumAndmultiply(double first, double second) {
-        return ru.job4j.math.MathFunction.sum(first, second) + ru.job4j.math.MathFunction.multiply(first, second);
+        return sum(first, second) + multiply(first, second);
 
     }
 
     public static double appleAndpear(double first, double second) {
-        return ru.job4j.math.MathFunction.apple(first, second) / ru.job4j.math.MathFunction.pear(first, second);
+        return apple(first, second) + pear(first, second);
     }
 
     public static double appleAndpearAndsumAndmultiply(double first, double second) {
