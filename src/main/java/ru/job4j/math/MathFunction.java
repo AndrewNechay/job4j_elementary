@@ -11,7 +11,7 @@ public class MathFunction {
     }
 
     public static double apple(double first, double second) {
-        return first - second;
+        return first -  second;
     }
 
     public static double pear(double first, double second) {
