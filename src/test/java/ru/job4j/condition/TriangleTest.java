@@ -7,18 +7,18 @@ public class TriangleTest {
 
     @Test
     public void whenExist() {
-        boolean ab = true;
-        boolean ac = true;
-        boolean bc = true;
+        double ab = 2.0;
+        double ac = 2.0;
+        double bc = 2.0;
         boolean result = Triangle.exist(ab, ac, bc);
         Assert.assertTrue(result);
     }
 
     @Test
     public void whenNotExist() {
-        boolean ab = false;
-        boolean ac = false;
-        boolean bc = false;
+        double ab = 2.0;
+        double ac = 2.0;
+        double bc = 2.0;
         boolean result = Triangle.exist(ab, ac, bc);
         Assert.assertFalse(result);
     }
